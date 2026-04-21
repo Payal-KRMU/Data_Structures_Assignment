@@ -1,0 +1,22 @@
+Correctness Check:
+Input : [5, 2, 9, 1, 5, 6]
+Insertion Sort: [1, 2, 5, 5, 6, 9]
+Merge Sort    : [1, 2, 5, 5, 6, 9]
+Quick Sort    : [1, 2, 5, 5, 6, 9]
+
+--- PERFORMANCE RESULTS ---
+
+Size: 1000
+Random: 66.0 3.9 6.59
+Sorted: 0.38 3.97 4.35
+Reverse: 99.45 2.89 3.33
+
+Size: 5000
+Random: 1026.61 15.79 12.55
+Sorted: 0.84 13.56 14.26
+Reverse: 2015.22 11.0 11.85
+
+Size: 10000
+Random: 3920.44 28.32 20.2
+Sorted: 1.25 16.6 18.9
+Reverse: 6397.24 41.4 21.79
